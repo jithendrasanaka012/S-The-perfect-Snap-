@@ -1,0 +1,486 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+#images{
+    /* border: solid 1px aqua; */
+    display: flex;
+    flex-wrap: wrap;
+    width: 50%;
+    justify-content: space-around;
+    height: 350px;
+    overflow:scroll;
+    position: absolute;
+    bottom: 170px;
+    left: 25%;
+}
+#images img{
+    height: 350px;
+    width: 350px;
+    margin-bottom: 10px;
+}
+#search{
+    height:"50px";
+    width:'40%';
+    border:"solid red 1px";
+    position: absolute;
+    padding: 10px 10px;
+    border-radius: 10px;
+    bottom: 100px;
+    left: 43%;
+    
+}
+#body{
+    height: 100vh;
+    width: 100%;
+    background-color: rgb(28, 6, 48);
+    position: relative;
+    background-clip: content-box;
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url("https://cdn.pixabay.com/photo/2016/10/21/14/50/plouzane-1758197_640.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+#nav{
+    height: 150px;
+    width: 100%;
+    border: solid 5px rgb(255, 0, 128);
+    
+    border-bottom-left-radius: 10cqmax;
+    border-bottom-right-radius: 10cqmax;
+}
+#p1{
+    height: 140px;
+    width: 120px;
+    position: absolute;
+    left: 45%;
+    /* color: blue; */
+    border-radius: 45%;
+}
+#h20{
+    /* border:solid 3px aqua; */
+    width: 20%;
+    text-align: center;
+    color: red;
+    position: absolute;
+    top: 55px;
+    left: 15%;
+}
+#h21{
+    /* border:solid 3px aqua; */
+    width: 20%;
+    text-align: center;
+    color: red;
+    position: absolute;
+    top: 55px;
+    right: 15%;
+}
+#join{
+    height: 50px;
+    border-radius: 40px;
+    position: absolute;
+    right: 15px;
+}
+#know{
+    height: 50px;
+    border-radius: 40px;
+    position: absolute;
+    left: 15px;
+}
+#mpg{
+  height: 350px;
+  width: 350px;
+  position: absolute;
+  bottom: 170px;
+  background-image: url(./Assets/photographer.jpg);
+  background-repeat: no-repeat;
+  background-position: right;
+}
+#mlion{
+  height: 350px;
+  width: 350px;
+  position: absolute;
+  bottom: 170px;
+  right: 10px;
+}
+
+
+
+
+/* reg */
+
+/* Register.css */
+.register-container {
+    width: 350px;
+    margin: 100px auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    background-color: #f9f9f9;
+    text-align: center;
+  }
+  
+  h2 {
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .input-container {
+    margin-bottom: 15px;
+    text-align: left;
+  }
+  
+  .input-container label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  .input-container input {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  .register-button {
+    width: 100%;
+    padding: 10px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 15px;
+  }
+  
+  .register-button:hover {
+    background-color: #218838;
+  }
+  
+  .success {
+    color: green;
+    margin-top: 10px;
+  }
+  
+  .error {
+    color: red;
+    margin-top: 10px;
+  }
+  
+
+
+
+
+/* login */
+
+
+
+
+#loginbody{
+  height: 100vh;
+  border: solid 10px;
+  position: relative;
+}
+#bgl{
+  height: 100%;
+  width: 50%;
+  position: absolute;
+  left: 0%;
+  border: solid red 1px;
+  background-image: url(./Assets/puppy.jpg);
+  background-size:  cover;
+  background-repeat: no-repeat;
+  background-position:right;
+}
+#bgr{
+  height: 100%;
+  width: 50%;
+  position: absolute;
+  right: 0%;
+  border: solid red 1px;
+  background-image: url(./Assets/photographer2.jpg);
+  background-size:cover;
+  background-repeat: no-repeat;
+  background-position:left;
+}
+#login{
+
+  width:200px;
+  height:160px;
+  border:solid green 3px;
+  position: relative;
+  top: 230px;
+  left: 40%;
+  color: transparent; 
+}
+#login:hover {
+  color:#0ddde8;
+  /* background-color:aqua; */
+}
+#login #inp1:hover{
+  background-color: #a96186;
+  color: aqua;
+  border-radius: 15px;
+}
+#inp1{
+  color: transparent;
+  background-color: transparent;
+  border: transparent;
+}
+
+#login #inp2:hover{
+  background-color: #a96186;
+  color: aqua;
+  border-radius: 15px;
+}
+#inp2{
+  color: transparent;
+  background-color: transparent;
+  border: transparent;
+}
+.text{
+  width: 100%;
+  text-align: center;
+}
+#inp1{
+  position: absolute;
+  top:50px;
+  left: 10px;
+}
+#inp2{
+  position: absolute;
+  top:90px;
+  left: 10px;
+}
+#sub1{
+  position: absolute;
+  bottom: 10px;
+  left: 20px;
+  padding: 2px 5px;
+  border:  solid;
+  background-color: transparent;
+  color: transparent;
+}
+#sub1:hover{
+  color: #886021;
+  border-radius: 15px;
+  background-color: #fff;
+  border: #0ddde8 solid;
+}
+#sub2{
+  position: absolute;
+  bottom: 10px;
+  right: 20px;
+  padding: 2px 5px;
+  border: solid;
+  background-color: transparent;
+  color: transparent;
+}
+#sub2:hover{
+  color: #886021;
+  border-radius: 15px;
+  background-color: #fff;
+}
+
+/* Overall container styling */
+.form-container {
+  max-width: 400px;
+  margin: 100px auto;
+  padding: 40px;
+  background-color: #f5f5f5;
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  text-align: center;
+  font-family: 'Arial', sans-serif;
+}
+
+/* Title styling */
+.form-title {
+  font-size: 24px;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+/* Grouping of inputs */
+.input-group {
+  margin-bottom: 20px;
+}
+
+/* Input field styling */
+.form-input {
+  width: 100%;
+  padding: 10px 15px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  outline: none;
+  transition: border-color 0.3s ease-in-out;
+}
+
+.form-input:focus {
+  border-color: #007bff;
+}
+
+/* Button styling */
+.submit-button {
+  width: 100%;
+  padding: 12px 20px;
+  font-size: 18px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.submit-button:hover {
+  background-color: #0056b3;
+}
+
+/* Error message styling */
+.error-message {
+  color: #d9534f;
+  font-size: 14px;
+  margin-top: 10px;
+}
+
+/* Responsive design for smaller screens */
+@media (max-width: 480px) {
+  .form-container {
+    margin: 50px auto;
+    padding: 20px;
+  }
+
+  .form-title {
+    font-size: 20px;
+  }
+
+  .form-input {
+    font-size: 14px;
+    padding: 8px 12px;
+  }
+
+  .submit-button {
+    font-size: 16px;
+    padding: 10px 15px;
+  }
+}
+
+
+  /* login */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.login-body {
+  font-family: 'Arial', sans-serif;
+  background: url('https://via.placeholder.com/1920x1080') no-repeat center center fixed;
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: solid 10px;
+}
+
+#d1 {
+  background-color: rgba(0, 0, 0, 0.7); 
+  padding: 40px;
+  border-radius: 8px;
+  width: 100%;
+  max-width: 400px;
+  box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.3);
+  color: white;
+  border: solid 10px;
+  position: relative;
+  top: 160px;
+  left: 35%;
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 30px;
+  font-size: 24px;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: #fff;
+}
+
+table {
+  width: 100%;
+}
+
+#di1,
+#di2 {
+  width: 100%;
+  padding: 12px;
+  margin: 10px 0;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  background-color: rgba(255, 255, 255, 0.1);
+  color: #fff;
+  font-size: 16px;
+}
+
+#di1::placeholder,
+#di2::placeholder {
+  color: #ccc;
+}
+
+#d13 {
+  width: 100%;
+  padding: 12px;
+  background-color: #ff6347;
+  color: white;
+  font-size: 18px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+#d13:hover {
+  background-color: #e5533d;
+}
+
+td {
+  text-align: center;
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+  #d1 {
+    width: 90%;
+    padding: 20px;
+  }
+}
+#error{
+  height: 100vh;
+  position: relative;
+  background-image: url(https://wallpapers.com/images/high/marky-from-oggy-and-the-cockroaches-uaoc1a47axyqlo6y.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top;
+}
+#error h1{
+      position: absolute;
+      top: 100px;
+      left: 40%;
+}
